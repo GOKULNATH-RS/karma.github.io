@@ -35,3 +35,17 @@ img {
 .line {
   font-family: "Times New Roman", Times, serif;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e827f6;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #e1e07b, #eba3f0);
+}
